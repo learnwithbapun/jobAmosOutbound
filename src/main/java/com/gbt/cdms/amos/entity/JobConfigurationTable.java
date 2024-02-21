@@ -24,7 +24,7 @@ public class JobConfigurationTable implements Serializable {
 	@Id
 	@GeneratedValue
 	@Column(name = "job_key", length = 50, nullable = false, unique = false)
-	private String jobkey;
+	private String jobKey;
 	@Column(name = "manual_run", length = 50)
 	private String manualRun;
 	@Column(name = "scheduled_run", length = 50)

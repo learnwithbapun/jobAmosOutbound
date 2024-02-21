@@ -12,11 +12,11 @@ import com.gbt.cdms.amos.entity.JobConfigurationTable;
 @Repository
 public interface JobConfigurationTableRepository extends JpaRepository<JobConfigurationTable, String> {
 
-	JobConfigurationTable findByJobKey(String jobkey);
+	JobConfigurationTable findByJobKey(String jobKey);
 
 	@Transactional
 	@Modifying
-	@Query(value = "update cdms.job_configuration_table set manual_run=:manual Run where job_key=:jobkey", nativeQuery = true)
-	void updateManualColumn(String manualRun, String jobkey);
+	@Query(value = "update cdms.job_configuration_table set manual_run=:manualRun where job_key=:jobKey", nativeQuery = true)
+	void updateManualColumn(String manualRun, String jobKey);
 
 }
