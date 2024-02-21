@@ -1,0 +1,34 @@
+spring:
+  jpa:
+    open-in-view: false
+    show-sql: true
+  datasource:
+    cdms:
+      driver-class-name: org.postgresql.Driver
+      jdbcUrl: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: admin
+      hikari: ${hikari}
+ #     initialize: false
+    batch:
+      job:
+        jdbc:
+          enabled: false
+          initialize-schema: never
+          initializer:
+            enabled: false
+          isolation-level-for-create: default
+    hikari:
+      connection-timeout: 30000
+      minimum-idle: 30
+      maximum-pool-size: 40
+      connection-test-query: SELECT 1
+      validation-timeout: 1000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+sptp:
+  hostname: XXXXX
+  port: XX
+  username: XXXXX
+  password: XXXXX
+  workingDir: XXXXX

@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    cdms:
+      driver-class-name: org.postgresql.Driver
+      jdbcUrl: B
+      username: XXXXX
+      password: XXXXX
+      initialize: false
+
+log:
+  home: 'C\user\logs'
+  size: '100MB'
+sptp:
+  hostname: XXXXX
+  port: XX
+  username: XXXXX
+  password: XXXXX
+  workingDir: XXXXX
+  isMFTEnabled: true

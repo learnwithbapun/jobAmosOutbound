@@ -1,0 +1,12 @@
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\config\BatchConfig.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\entity\JobConfigurationTable.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\entity\JobHistoryTable.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\JobAmosOutboundApplication.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\tasklet\ExecutableQueries.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\util\AppUtils.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\constant\DatabaseQueries.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\model\Gisdmstp.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\model\Giscxmstp.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\repository\JobConfigurationTableRepository.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\constant\AppConstant.java
+C:\Users\parid\OneDrive\Desktop\Spring Batch Job\jobAmosOutbound\src\main\java\com\gbt\cdms\amos\repository\JobHistoryTableRepository.java
