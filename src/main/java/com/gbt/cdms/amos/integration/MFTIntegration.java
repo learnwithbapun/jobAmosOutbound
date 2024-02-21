@@ -1,6 +1,7 @@
 package com.gbt.cdms.amos.integration;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
@@ -8,6 +9,10 @@ import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
 import com.jcraft.jsch.SftpException;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Component
 public class MFTIntegration {
 
 	@Value("${sftp.hostname}")
