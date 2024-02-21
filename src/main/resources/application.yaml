@@ -26,9 +26,10 @@ spring:
       validation-timeout: 1000
       idle-timeout: 600000
       max-lifetime: 1800000
-sptp:
-  hostname: XXXXX
-  port: XX
+sftp:
+  hostname: localhost
+  port: 9080
   username: XXXXX
   password: XXXXX
   workingDir: XXXXX
+  isMFTEnabled: true
